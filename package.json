@@ -1,0 +1,53 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by vaishnavi",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "node -e \"const fs=require('fs');const p=require('path');['.parcel-cache','dist'].forEach(d=>{try{fs.rmSync(p.join(process.cwd(),d),{recursive:true});console.log('Removed '+d);}catch(e){}})\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/vaishnavi9871/Namaste-React.git)"
+  },
+  "keywords": [
+    "react",
+    "vaishnavi",
+    "frontend"
+  ],
+  "author": "Vaishnavi Agrahari",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "autoprefixer": "^10.4.24",
+    "babel-jest": "^30.3.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "parcel": "^2.16.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.3"
+  },
+  "browserslist": [
+    "last 2 chrome version",
+    "last 2 firefox version",
+    "last 2 safari version"
+  ],
+  "@parcel/resolver-default": {
+    "packageExports": true
+  }
+}

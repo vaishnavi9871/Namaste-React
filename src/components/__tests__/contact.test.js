@@ -1,7 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import Contact from "../Contact";
 
-test("Should load contact us component", () => {
+describe("Contact us tesy cases", () =>{
+    it("Should load contact us component", () => {
     render(<Contact /> );
 
     const heading= screen.getByRole("heading");
@@ -10,7 +11,7 @@ test("Should load contact us component", () => {
     expect(heading).toBeInTheDocument();
 });
 
-test("Should load button inside my contact component", () => {
+    it("Should load button inside my contact component", () => {
     render(<Contact /> );
 
     const button= screen.getByRole("button");
@@ -18,3 +19,5 @@ test("Should load button inside my contact component", () => {
     // Assertion
     expect(button).toBeInTheDocument();
 });
+
+})

@@ -14,7 +14,7 @@ const RestaurantCard = (props) => {
     
     
     return (
-        <div className='m-4 p-4 w-[300px] bg-gray-100 rounded-lg shadow-md hover:bg-gray-200 transition-shadow duration-300  '>
+        <div data-testid="resCard" className='m-4 p-4 w-[300px] bg-gray-100 rounded-lg shadow-md hover:bg-gray-200 transition-shadow duration-300  '>
             <img 
                 className="rounded-lg w-full h-[200px] object-cover" 
                 alt={name} 

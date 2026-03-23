@@ -4,6 +4,7 @@
   "description": "This is namaste react by vaishnavi",
   "scripts": {
     "test": "jest",
+    "watch-test": "jest --watch",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "clean": "node -e \"const fs=require('fs');const p=require('path');['.parcel-cache','dist'].forEach(d=>{try{fs.rmSync(p.join(process.cwd(),d),{recursive:true});console.log('Removed '+d);}catch(e){}})\""

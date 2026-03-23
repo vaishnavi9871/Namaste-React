@@ -34,7 +34,7 @@ const Body = () => {
         <div className='body'> 
         <div className='filter flex'>
             <div className='search m-4 p-4'>
-                <input type="text" className='border-solid border-2 border-gray-400 p-2 rounded  ' 
+                <input data-testid="searchInput" type="text" className='border-solid border-2 border-gray-400 p-2 rounded  ' 
                 value={searchText} 
                 onChange={(e)=>{
                     setSearchText(e.target.value)

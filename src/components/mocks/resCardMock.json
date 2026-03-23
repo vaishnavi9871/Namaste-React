@@ -1,0 +1,13 @@
+{
+  "info": {
+    "name": "Pizza Paradise",
+    "cuisines": ["Italian", "Pizza"],
+    "avgRating": "4.5",
+    "areaName": "Downtown",
+    "sla": {
+      "slaString": "30 min"
+    },
+    "costForTwo": "₹400 for two",
+    "cloudinaryImageId": "sample-cloudinary-id"
+  }
+}
